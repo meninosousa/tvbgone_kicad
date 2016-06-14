@@ -1,0 +1,24 @@
+Reference, Value, Footprint, Datasheet, Digikey, Manufacturer, Quantity
+IC1,~,Housings_DIP:DIP-8_W7.62mm,,ATTINY85V-10PU-ND,Atmel ATTINY85V-10PU,1
+XTL1,8MHz,tvbgone_footprints:Murata-Electronics-North-America_CSTLS8M00G53-B0,,490-1212-ND,Murata-Electronics-North-America CSTLS8M00G53-B0,1
+ICSP1,~,Pin_Headers:Pin_Header_Straight_2x03,,952-1921-ND,Harwin-Inc. M20-9720345,1
+P1,~,Pin_Headers:Pin_Header_Straight_1x01,,S1112EC-01-ND,Sullins-Connector-Solutions PREC001SBAN-M71RC,1
+P2,~,Pin_Headers:Pin_Header_Straight_1x01,,S1112EC-01-ND,Sullins-Connector-Solutions PREC001SBAN-M71RC,1
+C2,>=220uF >=6.3V,Capacitors_ThroughHole:C_Radial_D5_L11_P2,,493-1004-ND,Nichicon UVR0J221MDD,1
+C1,0.1uF,Capacitors_ThroughHole:C_Disc_D3_P2.5,,399-4151-ND,Kemet C315C104M5U5TA,1
+R1,1K 1/4W 5%,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,CF14JT1K00CT-ND,Stackpole-Electronics-Inc. CF14JT1K00,1
+Q5,~,TO_SOT_Packages_THT:TO-92_Molded_Narrow,,PN2907-ND,Fairchild-Semiconductor PN2907BU,1
+Q4,~,TO_SOT_Packages_THT:TO-92_Molded_Narrow,,PN2222ATFCT-ND,Fairchild-Semiconductor PN2222ATF,1
+LED4,~,LEDs:LED-5MM,,1080-1082-ND,Everlight-Electronics-Co-Ltd IR333C-H0-L10,1
+Q1,~,TO_SOT_Packages_THT:TO-92_Molded_Narrow,,PN2222ATFCT-ND,Fairchild-Semiconductor PN2222ATF,1
+LED1,~,LEDs:LED-5MM,,1080-1082-ND,Everlight-Electronics-Co-Ltd IR333C-H0-L10,1
+Q2,~,TO_SOT_Packages_THT:TO-92_Molded_Narrow,,PN2222ATFCT-ND,Fairchild-Semiconductor PN2222ATF,1
+LED2,~,LEDs:LED-5MM,,1080-1080-ND,Everlight-Electronics-Co-Ltd IR333-A,1
+Q3,~,TO_SOT_Packages_THT:TO-92_Molded_Narrow,,PN2222ATFCT-ND,Fairchild-Semiconductor PN2222ATF,1
+LED3,~,LEDs:LED-5MM,,1080-1080-ND ,Everlight-Electronics-Co-Ltd IR333-A,1
+R5,1K 1/4W 5%,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,CF14JT1K00CT-ND,Stackpole-Electronics-Inc. CF14JT1K00,1
+LED5,Green 3mm,LEDs:LED-3MM,,1125-1186-ND,Marktech-Optoelectronics MT240-G-A,1
+R3,10K 1/4 5%,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,CF14JT10K0CT-ND,Stackpole-Electronics-Inc. CF14JT10K0,1
+S1,6mm,tvbgone_footprints:TE-Connectivity-Alcoswitch-Switches_1825910-6,,450-1804-ND,TE-Connectivity-Alcoswitch-Switches 1825910-7,1
+BATT1,2xAA,,,36-2463-ND,Keystone-Electronics 2463,1
+IC'1,~,,,ED3044-5-ND,On-Shore-Technology-Inc. ED08DT,1

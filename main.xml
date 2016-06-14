@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/Drive/Projects/Electronics/kicad/tb-b-gone/main.sch</source>
+    <date>10/06/2016 19:59:26</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>main.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>~</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
+      <fields>
+        <field name="Digikey">ATTINY85V-10PU-ND</field>
+        <field name="Manufacturer">Atmel ATTINY85V-10PU</field>
+      </fields>
+      <libsource lib="tvbgone" part="ATTINY85V-10PU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5757DE52</tstamp>
+    </comp>
+    <comp ref="XTL1">
+      <value>8MHz</value>
+      <footprint>tvbgone_footprints:Murata-Electronics-North-America_CSTLS8M00G53-B0</footprint>
+      <fields>
+        <field name="Digikey">490-1212-ND</field>
+        <field name="Manufacturer">Murata-Electronics-North-America CSTLS8M00G53-B0</field>
+      </fields>
+      <libsource lib="tvbgone" part="CSTLS8M00G53-B0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5757F25F</tstamp>
+    </comp>
+    <comp ref="ICSP1">
+      <value>~</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03</footprint>
+      <fields>
+        <field name="Digikey">952-1921-ND</field>
+        <field name="Manufacturer">Harwin-Inc. M20-9720345</field>
+        <field name="Quantity">1</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5757F402</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>~</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
+      <fields>
+        <field name="Digikey">S1112EC-01-ND</field>
+        <field name="Manufacturer">Sullins-Connector-Solutions PREC001SBAN-M71RC</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5757F872</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>~</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
+      <fields>
+        <field name="Digikey">S1112EC-01-ND</field>
+        <field name="Manufacturer">Sullins-Connector-Solutions PREC001SBAN-M71RC</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5757F8D2</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>&gt;=220uF &gt;=6.3V</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L11_P2</footprint>
+      <fields>
+        <field name="Digikey">493-1004-ND</field>
+        <field name="Manufacturer">Nichicon UVR0J221MDD</field>
+        <field name="Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5757FCDE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3_P2.5</footprint>
+      <fields>
+        <field name="Digikey">399-4151-ND</field>
+        <field name="Manufacturer">Kemet C315C104M5U5TA</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5757FD29</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K 1/4W 5%</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Digikey">CF14JT1K00CT-ND</field>
+        <field name="Manufacturer">Stackpole-Electronics-Inc. CF14JT1K00</field>
+        <field name="Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5758072A</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>~</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <fields>
+        <field name="Digikey">PN2907-ND</field>
+        <field name="Manufacturer">Fairchild-Semiconductor PN2907BU</field>
+      </fields>
+      <libsource lib="device" part="Q_PNP_EBC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57580AE2</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>~</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <fields>
+        <field name="Digikey">PN2222ATFCT-ND</field>
+        <field name="Manufacturer">Fairchild-Semiconductor PN2222ATF</field>
+      </fields>
+      <libsource lib="device" part="Q_NPN_EBC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575819B0</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>~</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <fields>
+        <field name="Digikey">1080-1082-ND</field>
+        <field name="Manufacturer">Everlight-Electronics-Co-Ltd IR333C-H0-L10</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57581A41</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>~</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <fields>
+        <field name="Digikey">PN2222ATFCT-ND</field>
+        <field name="Manufacturer">Fairchild-Semiconductor PN2222ATF</field>
+      </fields>
+      <libsource lib="device" part="Q_NPN_EBC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5758215F</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>~</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <fields>
+        <field name="Digikey">1080-1082-ND</field>
+        <field name="Manufacturer">Everlight-Electronics-Co-Ltd IR333C-H0-L10</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57582165</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>~</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <fields>
+        <field name="Digikey">PN2222ATFCT-ND</field>
+        <field name="Manufacturer">Fairchild-Semiconductor PN2222ATF</field>
+      </fields>
+      <libsource lib="device" part="Q_NPN_EBC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575824D6</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>~</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <fields>
+        <field name="Digikey">1080-1080-ND</field>
+        <field name="Manufacturer">Everlight-Electronics-Co-Ltd IR333-A</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575824DC</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>~</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <fields>
+        <field name="Digikey">PN2222ATFCT-ND</field>
+        <field name="Manufacturer">Fairchild-Semiconductor PN2222ATF</field>
+      </fields>
+      <libsource lib="device" part="Q_NPN_EBC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575825C5</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>~</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <fields>
+        <field name="Digikey">1080-1080-ND </field>
+        <field name="Manufacturer">Everlight-Electronics-Co-Ltd IR333-A</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575825CB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1K 1/4W 5%</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Digikey">CF14JT1K00CT-ND</field>
+        <field name="Manufacturer">Stackpole-Electronics-Inc. CF14JT1K00</field>
+        <field name="Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57583A9E</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>Green 3mm</value>
+      <footprint>LEDs:LED-3MM</footprint>
+      <fields>
+        <field name="Digikey">1125-1186-ND</field>
+        <field name="Manufacturer">Marktech-Optoelectronics MT240-G-A</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57583B30</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K 1/4 5%</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="Digikey">CF14JT10K0CT-ND</field>
+        <field name="Manufacturer">Stackpole-Electronics-Inc. CF14JT10K0</field>
+        <field name="Quantity">1</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5758897B</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>6mm</value>
+      <footprint>tvbgone_footprints:TE-Connectivity-Alcoswitch-Switches_1825910-6</footprint>
+      <fields>
+        <field name="Digikey">450-1804-ND</field>
+        <field name="Manufacturer">TE-Connectivity-Alcoswitch-Switches 1825910-7</field>
+      </fields>
+      <libsource lib="tvbgone" part="TE-Connectivity-Alcoswitch-Switches_1825910-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5758C564</tstamp>
+    </comp>
+    <comp ref="BATT1">
+      <value>2xAA</value>
+      <fields>
+        <field name="Digikey">36-2463-ND</field>
+        <field name="Manufacturer">Keystone-Electronics 2463</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575B0BF8</tstamp>
+    </comp>
+    <comp ref="IC'1">
+      <value>~</value>
+      <fields>
+        <field name="Digikey">ED3044-5-ND</field>
+        <field name="Manufacturer">On-Shore-Technology-Inc. ED08DT</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575B2C27</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="tvbgone" part="ATTINY85V-10PU">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATTINY85V-10PU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB5_(dW/ADC0/~RESET~/PCINT5)" type="BiDi"/>
+        <pin num="2" name="PB3_(ADC3/~OC1B~/CLK1/XTAL1/PCINT3)" type="BiDi"/>
+        <pin num="3" name="PB4_(ADC2/OC1B/CLK0/XTAL2/PCINT4)" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PB0_(MOSI/DI/SDA/AIN0/OC0A/~OC1A~/AREF/PCINT0)" type="BiDi"/>
+        <pin num="6" name="PB1_(MISO/DO/AIN1/OC0B/OC1A/PCINT1)" type="BiDi"/>
+        <pin num="7" name="PB2_(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)" type="passive"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X03">
+      <description>Connector 02x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X03</fp>
+        <fp>Pin_Header_Angled_2X03</fp>
+        <fp>Socket_Strip_Straight_2X03</fp>
+        <fp>Socket_Strip_Angled_2X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X04">
+      <description>Connector 02x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X04</fp>
+        <fp>Pin_Header_Angled_2X04</fp>
+        <fp>Socket_Strip_Straight_2X04</fp>
+        <fp>Socket_Strip_Angled_2X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>SMD*_Pol</fp>
+        <fp>c_elec*</fp>
+        <fp>C*elec</fp>
+        <fp>TantalC*</fp>
+        <fp>Elko*</fp>
+        <fp>CP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tvbgone" part="CSTLS8M00G53-B0">
+      <fields>
+        <field name="Reference">XTL</field>
+        <field name="Value">CSTLS8M00G53-B0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NPN_EBC">
+      <description>Transistor NPN (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_EBC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PNP_EBC">
+      <description>Transistor PNP (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_EBC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tvbgone" part="TE-Connectivity-Alcoswitch-Switches_1825910-6">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">TE-Connectivity-Alcoswitch-Switches_1825910-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="tvbgone">
+      <uri>D:\Drive\Projects\Electronics\kicad\tb-b-gone\lib\tvbgone.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="P2" pin="1"/>
+      <node ref="ICSP1" pin="6"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="XTL1" pin="2"/>
+      <node ref="S1" pin="3"/>
+      <node ref="S1" pin="4"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="2" name="4xQ">
+      <node ref="Q5" pin="3"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="3" name="Net-(LED3-Pad1)">
+      <node ref="Q3" pin="3"/>
+      <node ref="LED3" pin="1"/>
+    </net>
+    <net code="4" name="VCC">
+      <node ref="IC1" pin="8"/>
+      <node ref="LED1" pin="2"/>
+      <node ref="ICSP1" pin="2"/>
+      <node ref="LED2" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="LED3" pin="2"/>
+      <node ref="LED5" pin="2"/>
+      <node ref="LED4" pin="2"/>
+    </net>
+    <net code="5" name="Net-(LED5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="LED5" pin="1"/>
+    </net>
+    <net code="6" name="PB2">
+      <node ref="R5" pin="2"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="ICSP1" pin="3"/>
+    </net>
+    <net code="7" name="PB1">
+      <node ref="ICSP1" pin="1"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(LED2-Pad1)">
+      <node ref="Q2" pin="3"/>
+      <node ref="LED2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(LED1-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="LED1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(IC'1-Pad3)">
+      <node ref="IC'1" pin="3"/>
+    </net>
+    <net code="11" name="Net-(BATT1-Pad1)">
+      <node ref="BATT1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(BATT1-Pad2)">
+      <node ref="BATT1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(IC'1-Pad1)">
+      <node ref="IC'1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(IC'1-Pad5)">
+      <node ref="IC'1" pin="5"/>
+    </net>
+    <net code="15" name="Net-(IC'1-Pad7)">
+      <node ref="IC'1" pin="7"/>
+    </net>
+    <net code="16" name="Net-(IC'1-Pad8)">
+      <node ref="IC'1" pin="8"/>
+    </net>
+    <net code="17" name="Net-(IC'1-Pad6)">
+      <node ref="IC'1" pin="6"/>
+    </net>
+    <net code="18" name="Net-(IC'1-Pad4)">
+      <node ref="IC'1" pin="4"/>
+    </net>
+    <net code="19" name="Net-(IC'1-Pad2)">
+      <node ref="IC'1" pin="2"/>
+    </net>
+    <net code="20" name="PB5">
+      <node ref="IC1" pin="1"/>
+      <node ref="ICSP1" pin="5"/>
+      <node ref="S1" pin="1"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="21" name="PB3">
+      <node ref="IC1" pin="2"/>
+      <node ref="XTL1" pin="1"/>
+    </net>
+    <net code="22" name="PB4">
+      <node ref="IC1" pin="3"/>
+      <node ref="XTL1" pin="3"/>
+    </net>
+    <net code="23" name="PB0">
+      <node ref="R1" pin="2"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="ICSP1" pin="4"/>
+    </net>
+    <net code="24" name="Net-(LED4-Pad1)">
+      <node ref="Q4" pin="3"/>
+      <node ref="LED4" pin="1"/>
+    </net>
+    <net code="25" name="Net-(Q5-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,31 @@
+* D:\Drive\Projects\Electronics\kicad\tb-b-gone\main.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 08/06/2016 15:11:11
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+IC1  PB5 PB3 PB4 GND PB0 PB1 PB2 VCC ATTINY85V-10PU-ND		
+SW1  PB5 GND PB5 GND 450-1650-ND		
+XTL1  PB3 GND PB4 490-1212-ND		
+ICSP1  PB1 VCC PB2 PB0 PB5 GND CONN_02X03		
+P8  VCC +		
+P4  GND -		
+C2  VCC GND 493-1004-ND		
+C1  VCC GND 399-4151-ND		
+R1  Net-_Q5-Pad2_ PB0 1K		
+Q5  VCC Net-_Q5-Pad2_ 4xQ PN2907-ND		
+Q4  GND 4xQ Net-_LED4-Pad1_ PN2222ATFCT-ND		
+LED4  Net-_LED4-Pad1_ VCC 1080-1082-ND 		
+Q1  GND 4xQ Net-_LED1-Pad1_ PN2222ATFCT-ND		
+LED1  Net-_LED1-Pad1_ VCC 1080-1082-ND 		
+Q2  GND 4xQ Net-_LED2-Pad1_ PN2222ATFCT-ND		
+LED2  Net-_LED2-Pad1_ VCC 1080-1080-ND 		
+Q3  GND 4xQ Net-_LED3-Pad1_ PN2222ATFCT-ND		
+LED3  Net-_LED3-Pad1_ VCC 1080-1080-ND 		
+R5  Net-_LED5-Pad1_ PB2 1K		
+LED5  Net-_LED5-Pad1_ VCC 754-1735-ND		
+R3  GND PB1 10K		
+
+.end
